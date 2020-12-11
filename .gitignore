@@ -1,0 +1,11 @@
+.history
+node_modules
+import.sh
+lerna-debug.log
+monorepify.sh
+.idea
+.vscode/launch.json
+.DS_Store
+dist
+tsconfig.tsbuildinfo
+TEMP_PACKAGE_JSONS
