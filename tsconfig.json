@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "incremental": true,
+    "checkJs": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "googleapis": ["googleTypes.d.ts"]
+    },
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
