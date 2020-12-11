@@ -5,5 +5,7 @@
     "prettier/@typescript-eslint",
     "plugin:@typescript-eslint/recommended"
   ],
-  "rules": {}
+  "rules": {
+    "prefer-template": "error"
+  }
 }

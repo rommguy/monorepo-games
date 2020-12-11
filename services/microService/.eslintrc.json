@@ -1,0 +1,7 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "rules": {
+    "prefer-template": "off",
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+}

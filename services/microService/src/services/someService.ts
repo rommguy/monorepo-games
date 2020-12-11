@@ -4,13 +4,19 @@ const waitFor = (time: number): Promise<void> => {
   })
 }
 
-class SomeService {
-  doSomethingCool = async () => {
+const REASON = "something"
+
+export class SomeService {
+  doSomethingCool = async (): Promise<string> => {
     try {
       await waitFor(1000)
       return "done"
     } catch (e) {
-      return "failed"
+      return "failed" + REASON
     }
+  }
+
+  returnAny = (): any => {
+    return 5
   }
 }
